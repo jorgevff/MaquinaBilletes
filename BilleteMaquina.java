@@ -29,6 +29,12 @@ public class BilleteMaquina
         saldo = 0;
         total = 0;
     }
+    public BilleteMaquina(int costeBillete)
+    {
+        precioBillete =  costeBillete;
+        saldo = 0;
+        total = 0;
+    }
 
     /**
      * Return the price of a ticket.
