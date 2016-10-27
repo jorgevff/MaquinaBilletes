@@ -33,7 +33,7 @@ public class BilleteMaquina
     /**
      * Return the price of a ticket.
      */
-    public int getPrecio()
+    public int obtenerPrecio()
     {
         return precioBillete;
     }
@@ -42,7 +42,7 @@ public class BilleteMaquina
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getSaldo()
+    public int obtenerSaldo()
     {
         return saldo;
     }
@@ -75,8 +75,14 @@ public class BilleteMaquina
         // Clear the balance.
         saldo = 0;
     }
-    public int getTotal()
+    public int obtenerTotal()
       {  
         return total;
     }
+    public void imprimirAviso()
+    {
+        System.out.println("Por favor, introduzca la cantidad correcta de dinero");
+    }
+    
+
 }
