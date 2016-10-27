@@ -84,5 +84,8 @@ public class BilleteMaquina
         System.out.println("Por favor, introduzca la cantidad correcta de dinero");
     }
     
-
+    public void motrarPrecio()
+    {
+        System.out.println("El precio del billete es de " + precioBillete + " euros");
+    }
 }
